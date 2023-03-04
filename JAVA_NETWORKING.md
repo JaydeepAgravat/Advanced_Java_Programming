@@ -737,3 +737,49 @@ IP Adress: 192.168.43.227
 ## 12. What are the differences between a TCP socket and UDP socket? How are they created in Java?
 
 ## 13. Write a java program where client sends a string as a message and server counts the characters in the received message from client. Server sends this value back to the client. Server should be able to serve multiple clients simultaneously
+
+## 14. InetAddressDemo
+
+`InetAddressDemo.java`
+
+```java
+import java.net.*;
+
+public class InetAddressDemo{
+    public static void main(String[] args){
+        try{
+            // The host name can either be a machine name, such as "java.sun.com", or a textual representation of its IP address.
+            
+            String hostName = "www.google.com";
+
+
+            InetAddress remote = InetAddress.getByName(hostName);
+            InetAddress local = InetAddress.getLocalHost();
+
+            System.out.println(remote);
+            System.out.println(local);          
+
+            System.out.println("Host Name: "+remote.getHostName());
+            System.out.println("IP Adress: "+remote.getHostAddress());
+
+            System.out.println("Host Name: "+local.getHostName());
+            System.out.println("IP Adress: "+local.getHostAddress());
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
+    }
+}
+```
+
+`OUTPUT`
+
+```cmd
+www.google.com/142.250.67.132
+DESKTOP-F50Q5F8/192.168.43.227
+Host Name: www.google.com
+IP Adress: 142.250.67.132
+Host Name: DESKTOP-F50Q5F8
+IP Adress: 192.168.43.227
+```
+

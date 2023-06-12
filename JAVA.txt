@@ -1,0 +1,115 @@
+UNIT 1 *********************************************************************************************************************
+
+1. Explain the usage of InetAddress class. [3]
+2. Compare Socket with ServerSocket. [3]
+3. What are the differences between a TCP socket and UDP socket? How are 
+they created in Java? [3]
+4. Write a program in which client sends string from its standard input to the 
+server. The server reads the string, converts the string into upper case and 
+sends back to client. Use connection-oriented communication. [7]
+5. Write a java program where client sends a string as a message and sever counts 
+the characters in the received message from client. Server sends this value back 
+to the client. Server should be able to serve multiple clients simultaneously. [7]
+6. How do you get the IP address of a machine from its hostname? [1]
+
+UNIT 2 *********************************************************************************************************************
+ 
+1. What is connection URL? How do you make a database connection? Explain 
+various ways to make the database connection using JDBC code snippets. [7]
+2. What is JDBC driver? Explain its role and compare various JDBC drivers. [7]
+3. What is the use of PreparedStatement? How will you use it? [3]
+4. What is the use of CallableStatement? How will you use it? [3]
+5. Explain the use of PreparedStatement and CallableStatement with example. [4]
+6. Write a JDBC program for banking application in which consider bank table with 
+attributes AccountNo, CustomerName, Phone and Address, and perform 
+followings:
+	1. Insert two records using prepared statement.
+	2. Display all the records. [7]
+7. Discuss the use of execute(), executeUpdate() and executeQuery() methods. [3]
+8. Explain the use of PreparedStatement with appropriate example. [7]
+9. Compare the types of JDBC drivers? [4]
+
+UNIT - 3 *********************************************************************************************************************
+
+1. List out the important methods of HttpServletResponse. [1]
+2. What do you mean by session tracking? What are the session tracking 
+techniques? Demonstrate any of them. [7]
+3. Differentiate ServletConfig and ServletContext. [4]
+4. What is filter? How will you configure filter using deployment descriptor? [4]
+5. What is FilterConfig? How will you use it? [4]
+6. What is Servlet? Explain the life cycle methods of it. [4]
+7. Write a servlet code which reads the student details from web page and stores 
+it in database. [7]
+8. What is a session? List out various session management techniques. [3]
+9. Explain the purpose of RequestDispatcher using the methods forward () and 
+include (). [4]
+10. What are cookies? Demonstrate the use of cookies in servlet. [7]
+11. What is filter? Explain the configuration of filter using deployment descriptor. [4]
+12. Differentiate ServletConfig and ServletContext objects. [4]
+13. What is Request Dispatcher? What is the difference between RequestDispatcher’s forward() and include() method? Explain it in detail 
+with program. [7]
+
+
+UNIT - 4 *********************************************************************************************************************
+
+1. What is difference between include directive and jsp:include action tag? [3]
+2. Explain any four implicit objects of JSP. [4]
+3. Explain JSP page directives with example. [7]
+4. What are the implicit objects of JSP? Write a JSP page to demonstrate the use 
+them. [7]
+5. What are the directive tags of JSP? Write a JSP page to demonstrate the use 
+of them. [7]
+6. What are the attributes for the JSP page directive? [1]
+7. What is Expression Language EL in JSP explain with suitable example 
+program? [4]
+8. Which action tags are used to access the JavaBeans from a JSP page? [3]
+9. Explain JSP inbuilt objects with their use in application. [7]
+
+UNIT - 5 *********************************************************************************************************************
+
+1. Discuss JSF life cycle phases. [7]
+2. What is JSF? List and explain its features. [3]
+3. List the JSF standard converter tags and explain any three in detail. [4]
+4. What is the JSF facelets? Explain any two facelets tags. [3]
+5. Write a code snippet to show the use of JSF action event. [4]
+6. How will you use <h:commandButton> and <h:dataTable>? [4]
+7. How can you apply JSF Input Validation using input validators? [4]
+
+UNIT - 6 *********************************************************************************************************************
+
+1. What are the different Hibernate interfaces? Explain their role in brief. [7]
+2. What is Hibernate? What are the features of it? [3]
+3. What is OR mapping? How will you configure hibernate mapping file to map 
+a table and its columns from a given database? [4]
+4. What is hibernate? What are the benefits of using it? [3]
+5. What is HQL? How does it different from SQL? List its advantages. [4]
+6. What is OR mapping? Explain the components of hibernate.cfg.xml file. [7]
+7. What is ORM? Explain object/relational mappings in hibernate [4]
+8. Explain Hibernate Architecture. [7]
+9. What is HQL? Write difference between HQL and SQL. [4]
+
+UNIT - 7 *********************************************************************************************************************
+
+1. Explain the features of Spring web MVC. [3]
+2. What is dependency injection? Explain in detail. [3]
+3. What is Spring AOP? What are Join points and Point cuts? [3]
+4. What are the different bean scopes in spring? [3]
+5. What is dependency Injection? What is the role IoC container in Spring? [4]
+6. What is Spring Bean? How can you create bean in Spring boot? [4]
+7. What are the advantages of Spring MVC? Explain the flow of Spring Web MVC. [7]
+8. Explain the Spring Web MVC framework controllers. [7]
+9. Explain architecture of Spring MVC Framework. [7] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
